@@ -1,6 +1,15 @@
 import requests 
 import json
 
+"""
+Here a wrapper class is defined to simplify http requests,
+for the binapi class.
+Args:
+    Nothing
+Returns:
+    data
+"""
+
 class reqs:
     
     def __init__():
@@ -41,3 +50,4 @@ class reqs:
             print(e)
             data = {'code': '-1', 'msg':e}
         return data
+
