@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='binapi',
-    version='0.0',
+    version='0.1',
     author='Pouya Jamali',
     author_email='pouyajamali@gmail.com',
     description='A wrapper for binance futures API',
