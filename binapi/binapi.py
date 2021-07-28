@@ -4,7 +4,8 @@ import time
 import pandas as pd
 import hashlib
 from decimal import Decimal
-from reqs import *
+# from reqs import *
+from . import reqs
 
 """
 Here a class is defined based on Binance API commands,
